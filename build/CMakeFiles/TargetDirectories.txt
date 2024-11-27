@@ -1,0 +1,4 @@
+/Users/anishdhandore/Downloads/Class Project 2/build/CMakeFiles/StockTradingBot.dir
+/Users/anishdhandore/Downloads/Class Project 2/build/CMakeFiles/edit_cache.dir
+/Users/anishdhandore/Downloads/Class Project 2/build/CMakeFiles/rebuild_cache.dir
+/Users/anishdhandore/Downloads/Class Project 2/build/CMakeFiles/StockTradingBot_autogen.dir
