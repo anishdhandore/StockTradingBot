@@ -16,7 +16,8 @@ Welcome to the **Stock Trading Bot** project! This application uses a simple yet
 
 ## 🖼️ Screenshots
 
-![Stock Trading Bot](./assets/screenshot.png)  <!-- Add your image here -->
+![Stock Trading Bot](./assets/app.png)  <!-- Add your image here -->
+![Stock Trading Bot Results](./assets/results.png)  <!-- Add your image here -->
 
 ---
 
