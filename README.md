@@ -37,6 +37,7 @@ To run this project, you need the following:
 ```bash
 git clone https://github.com/your-username/StockTradingBot.git
 cd StockTradingBot
+```
 
 ### 2. Install Dependencies
 
@@ -54,4 +55,5 @@ mkdir build
 cd build
 cmake ..
 make
-
+./StockTradingBot
+```
