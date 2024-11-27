@@ -37,3 +37,21 @@ To run this project, you need the following:
 ```bash
 git clone https://github.com/your-username/StockTradingBot.git
 cd StockTradingBot
+
+### 2. Install Dependencies
+
+Make sure you have **Qt** and **CMake** installed on your machine. You can download Qt from [here](https://www.qt.io/download) and install CMake from [here](https://cmake.org/download/).
+
+- For **Qt** installation, follow the instructions for your specific operating system.
+- For **CMake**, follow the instructions provided in the CMake documentation.
+
+### 3. Build the Project
+
+After cloning the repository and installing the necessary dependencies, create a build directory and run CMake to generate the build files. Open a terminal and run the following commands:
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
+
