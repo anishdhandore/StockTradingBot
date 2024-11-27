@@ -739,6 +739,7 @@ CMakeFiles/StockTradingBot.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/unary_negate.h \
   /Users/anishdhandore/Documents/Projects/StockTradingBot/TradingBot.h \
   /Users/anishdhandore/Documents/Projects/StockTradingBot/BankingSystem.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/deque \
   /Users/anishdhandore/Documents/Projects/StockTradingBot/GUI.h \
   /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers/qwidget.h \

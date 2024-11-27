@@ -1,6 +1,7 @@
 #include "TradingBot.h"
 #include <iostream>
 #include <limits>
+#include <deque>
 
 
 TradingBot::TradingBot(double initialFunds)
@@ -14,7 +15,24 @@ TradingBot::~TradingBot() {
 }
 
 void TradingBot::update(const std::string& stock, double price) {
-    // Optional: Handle updates from the StockMarket if needed
+    if (lastPrices.find(stock) != lastPrices.end()) {
+        double change = price - lastPrices[stock];
+        priceChanges[stock].push_back(change);
+
+        // Maintain a fixed period (e.g., 14 updates)
+        if (priceChanges[stock].size() > 14) {
+            priceChanges[stock].erase(priceChanges[stock].begin());
+        }
+    }
+    lastPrices[stock] = price; // Update last price
+}
+
+void TradingBot::addPriceToHistory(const std::string& stock, double price) {
+    // Keep track of the last 20 prices for each stock
+    if (priceHistory[stock].size() >= 20) {
+        priceHistory[stock].pop_front(); // Remove the oldest price
+    }
+    priceHistory[stock].push_back(price);
 }
 
 void TradingBot::setSelectedStock(const std::string& stock) {
@@ -22,37 +40,56 @@ void TradingBot::setSelectedStock(const std::string& stock) {
     std::cout << "Selected stock for trading: " << selectedStock << "\n";
 }
 
+double TradingBot::calculateMomentum(const std::string& stock) {
+    const int period = 5; // Short time frame for momentum calculation
+    if (priceChanges[stock].size() < period) {
+        return 0.0; // Not enough data
+    }
+
+    // Calculate the momentum by finding the difference between the current price and the price 'period' steps ago
+    double momentum = priceChanges[stock].back() - priceChanges[stock][priceChanges[stock].size() - period];
+    return momentum;
+}
 
 void TradingBot::executeTrade(const StockMarket& market) {
-    if (selectedStock.empty()) {
-        std::cout << "No stock selected for trading. Use setSelectedStock() to choose a stock.\n";
+    if (selectedStock.empty() || market.getStocks().find(selectedStock) == market.getStocks().end()) {
+        std::cout << "No valid stock selected for trading.\n";
         return;
     }
 
-    const auto& stocks = market.getStocks();
+    double stockPrice = market.getStocks().at(selectedStock);
+    double momentum = calculateMomentum(selectedStock);
 
-    if (stocks.find(selectedStock) == stocks.end()) {
-        std::cout << "Selected stock (" << selectedStock << ") is not available in the market.\n";
-        return;
+    // Aggressive momentum trading thresholds
+    const double buyThreshold = 0.5; // Positive momentum threshold for buying
+    const double sellThreshold = -0.5; // Negative momentum threshold for selling
+
+    // Buy logic (aggressive)
+    if (portfolio[selectedStock] == 0 && momentum > buyThreshold) {
+        double amountToInvest = 0.2 * bank->getBalance(); // Invest 20% of balance
+        int unitsToBuy = static_cast<int>(amountToInvest / stockPrice);
+        if (unitsToBuy > 0) {
+            portfolio[selectedStock] += unitsToBuy;
+            bank->withdraw(unitsToBuy * stockPrice);
+            buyPrice = stockPrice;  // Store the buy price for later profit calculation
+            std::cout << "Bought " << unitsToBuy << " units of " << selectedStock << " at $" << stockPrice << "\n";
+        }
     }
 
-    double stockPrice = stocks.at(selectedStock);
+    // Sell logic (aggressive)
+    else if (portfolio[selectedStock] > 0 && momentum < sellThreshold) {
+        int unitsToSell = portfolio[selectedStock];
+        double totalSaleValue = unitsToSell * stockPrice;
 
-    // Example logic for trading
-    if (portfolio[selectedStock] == 0 && bank->getBalance() >= stockPrice) {
-        // Buy stock
-        portfolio[selectedStock]++;
-        bank->withdraw(stockPrice);
-        std::cout << "Bought 1 unit of " << selectedStock << " at " << stockPrice << "\n";
-        profit -= stockPrice;
-    } else if (portfolio[selectedStock] > 0) {
-        // Sell stock
-        portfolio[selectedStock]--;
-        bank->deposit(stockPrice);
-        std::cout << "Sold 1 unit of " << selectedStock << " at " << stockPrice << "\n";
-        profit += stockPrice;
-    } else {
-        std::cout << "No valid trade action for stock: " << selectedStock << "\n";
+        portfolio[selectedStock] -= unitsToSell;
+        bank->deposit(totalSaleValue);
+
+        // Calculate profit (difference between sale price and buy price)
+        double tradeProfit = (stockPrice - buyPrice) * unitsToSell;
+        profit += tradeProfit;
+
+        std::cout << "Sold " << unitsToSell << " units of " << selectedStock << " at $" << stockPrice << "\n";
+        std::cout << "Profit from this trade: $" << tradeProfit << "\n";
     }
 }
 

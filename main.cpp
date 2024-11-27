@@ -17,8 +17,6 @@ int main(int argc, char* argv[]) {
 
     // Add some stocks to the market
     market.addStock("AAPL", 150.0);
-    market.addStock("GOOG", 2800.0);
-    market.addStock("AMZN", 3400.0);
     market.addStock("MSFT", 330.0);
     market.addStock("TSLA", 700.0);
 

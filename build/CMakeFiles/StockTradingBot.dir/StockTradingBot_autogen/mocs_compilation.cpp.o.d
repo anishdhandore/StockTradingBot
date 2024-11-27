@@ -885,4 +885,5 @@ CMakeFiles/StockTradingBot.dir/StockTradingBot_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/qbasictimer.h \
   /Users/anishdhandore/Documents/Projects/StockTradingBot/build/StockTradingBot_autogen/EWIEGA46WW/../../../StockMarket.h \
   /Users/anishdhandore/Documents/Projects/StockTradingBot/build/StockTradingBot_autogen/EWIEGA46WW/../../../TradingBot.h \
-  /Users/anishdhandore/Documents/Projects/StockTradingBot/build/StockTradingBot_autogen/EWIEGA46WW/../../../BankingSystem.h
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/build/StockTradingBot_autogen/EWIEGA46WW/../../../BankingSystem.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/deque

@@ -21,6 +21,8 @@ private:
     TradingBot* bot;
     double balance;
     double profit;
+    bool tradingActive;  // Declare tradingActive here
+
     QTableWidget* stockTable;
     QLabel* balanceLabel;
     QLabel* profitLabel;
@@ -30,6 +32,7 @@ private:
     void simulateMarket();
     void updateMarketView();
     void updateBalanceAndProfit();
+    void endTrading();  // Declare endTrading method
 };
 
 #endif // GUI_H
