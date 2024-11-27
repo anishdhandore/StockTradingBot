@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/anishdhandore/Downloads/Class Project 2"
+CMAKE_SOURCE_DIR = /Users/anishdhandore/Documents/Projects/StockTradingBot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/anishdhandore/Downloads/Class Project 2/build"
+CMAKE_BINARY_DIR = /Users/anishdhandore/Documents/Projects/StockTradingBot/build
 
 # Utility rule file for StockTradingBot_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/StockTradingBot_autogen: StockTradingBot_autogen/timestamp
 
 StockTradingBot_autogen/timestamp: /opt/homebrew/opt/qt@5/bin/moc
 StockTradingBot_autogen/timestamp: CMakeFiles/StockTradingBot_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/anishdhandore/Downloads/Class Project 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target StockTradingBot"
-	/opt/homebrew/bin/cmake -E cmake_autogen "/Users/anishdhandore/Downloads/Class Project 2/build/CMakeFiles/StockTradingBot_autogen.dir/AutogenInfo.json" ""
-	/opt/homebrew/bin/cmake -E touch "/Users/anishdhandore/Downloads/Class Project 2/build/StockTradingBot_autogen/timestamp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/anishdhandore/Documents/Projects/StockTradingBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target StockTradingBot"
+	/opt/homebrew/bin/cmake -E cmake_autogen /Users/anishdhandore/Documents/Projects/StockTradingBot/build/CMakeFiles/StockTradingBot_autogen.dir/AutogenInfo.json ""
+	/opt/homebrew/bin/cmake -E touch /Users/anishdhandore/Documents/Projects/StockTradingBot/build/StockTradingBot_autogen/timestamp
 
 CMakeFiles/StockTradingBot_autogen.dir/codegen:
 .PHONY : CMakeFiles/StockTradingBot_autogen.dir/codegen
@@ -91,6 +91,6 @@ CMakeFiles/StockTradingBot_autogen.dir/clean:
 .PHONY : CMakeFiles/StockTradingBot_autogen.dir/clean
 
 CMakeFiles/StockTradingBot_autogen.dir/depend:
-	cd "/Users/anishdhandore/Downloads/Class Project 2/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/anishdhandore/Downloads/Class Project 2" "/Users/anishdhandore/Downloads/Class Project 2" "/Users/anishdhandore/Downloads/Class Project 2/build" "/Users/anishdhandore/Downloads/Class Project 2/build" "/Users/anishdhandore/Downloads/Class Project 2/build/CMakeFiles/StockTradingBot_autogen.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /Users/anishdhandore/Documents/Projects/StockTradingBot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anishdhandore/Documents/Projects/StockTradingBot /Users/anishdhandore/Documents/Projects/StockTradingBot /Users/anishdhandore/Documents/Projects/StockTradingBot/build /Users/anishdhandore/Documents/Projects/StockTradingBot/build /Users/anishdhandore/Documents/Projects/StockTradingBot/build/CMakeFiles/StockTradingBot_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/StockTradingBot_autogen.dir/depend
 

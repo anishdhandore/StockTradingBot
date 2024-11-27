@@ -4,8 +4,6 @@ file(REMOVE_RECURSE
   "StockTradingBot_autogen"
   "CMakeFiles/StockTradingBot.dir/BankingSystem.cpp.o"
   "CMakeFiles/StockTradingBot.dir/BankingSystem.cpp.o.d"
-  "CMakeFiles/StockTradingBot.dir/ConservativeStrategy.cpp.o"
-  "CMakeFiles/StockTradingBot.dir/ConservativeStrategy.cpp.o.d"
   "CMakeFiles/StockTradingBot.dir/GUI.cpp.o"
   "CMakeFiles/StockTradingBot.dir/GUI.cpp.o.d"
   "CMakeFiles/StockTradingBot.dir/StockMarket.cpp.o"

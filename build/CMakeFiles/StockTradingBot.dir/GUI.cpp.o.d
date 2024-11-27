@@ -1,6 +1,6 @@
 CMakeFiles/StockTradingBot.dir/GUI.cpp.o: \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/GUI.cpp \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/GUI.h \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/GUI.cpp \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/GUI.h \
   /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers/qwidget.h \
   /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -882,8 +882,8 @@ CMakeFiles/StockTradingBot.dir/GUI.cpp.o: \
   /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QTimer \
   /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/qtimer.h \
   /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/qbasictimer.h \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/StockMarket.h \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/TradingBot.h \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/BankingSystem.h \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/StockMarket.h \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/TradingBot.h \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/BankingSystem.h \
   /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers/QHeaderView \
   /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers/qheaderview.h

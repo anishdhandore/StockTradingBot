@@ -10,7 +10,7 @@ set(CMAKE_AUTOMOC ON)
 # Find the Qt5 Widgets module
 find_package(Qt5Widgets REQUIRED)
 
-add_executable(StockTradingBot ConservativeStrategy.cpp main.cpp StockMarket.cpp BankingSystem.cpp TradingBot.cpp GUI.cpp)
+add_executable(StockTradingBot main.cpp StockMarket.cpp BankingSystem.cpp TradingBot.cpp GUI.cpp)
 
 # Link to Qt5 Widgets
 target_link_libraries(StockTradingBot Qt5::Widgets)

@@ -1,6 +1,6 @@
 CMakeFiles/StockTradingBot.dir/StockTradingBot_autogen/mocs_compilation.cpp.o: \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/build/StockTradingBot_autogen/mocs_compilation.cpp \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/build/StockTradingBot_autogen/EWIEGA46WW/moc_GUI.cpp \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/build/StockTradingBot_autogen/mocs_compilation.cpp \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/build/StockTradingBot_autogen/EWIEGA46WW/moc_GUI.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/memory \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -469,7 +469,7 @@ CMakeFiles/StockTradingBot.dir/StockTradingBot_autogen/mocs_compilation.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/sortable.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/unreachable_sentinel.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/wrap_iter.h \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/build/StockTradingBot_autogen/EWIEGA46WW/../../../GUI.h \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/build/StockTradingBot_autogen/EWIEGA46WW/../../../GUI.h \
   /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers/qwidget.h \
   /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -883,6 +883,6 @@ CMakeFiles/StockTradingBot.dir/StockTradingBot_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/QTimer \
   /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/qtimer.h \
   /opt/homebrew/opt/qt@5/lib/QtCore.framework/Headers/qbasictimer.h \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/build/StockTradingBot_autogen/EWIEGA46WW/../../../StockMarket.h \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/build/StockTradingBot_autogen/EWIEGA46WW/../../../TradingBot.h \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/build/StockTradingBot_autogen/EWIEGA46WW/../../../BankingSystem.h
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/build/StockTradingBot_autogen/EWIEGA46WW/../../../StockMarket.h \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/build/StockTradingBot_autogen/EWIEGA46WW/../../../TradingBot.h \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/build/StockTradingBot_autogen/EWIEGA46WW/../../../BankingSystem.h

@@ -1,3 +1,3 @@
 CMakeFiles/StockTradingBot.dir/BankingSystem.cpp.o: \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/BankingSystem.cpp \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/BankingSystem.h
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/BankingSystem.cpp \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/BankingSystem.h

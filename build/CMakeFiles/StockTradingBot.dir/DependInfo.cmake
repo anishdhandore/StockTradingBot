@@ -9,13 +9,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "StockTradingBot_autogen/timestamp" "custom" "StockTradingBot_autogen/deps"
-  "/Users/anishdhandore/Downloads/Class Project 2/BankingSystem.cpp" "CMakeFiles/StockTradingBot.dir/BankingSystem.cpp.o" "gcc" "CMakeFiles/StockTradingBot.dir/BankingSystem.cpp.o.d"
-  "/Users/anishdhandore/Downloads/Class Project 2/ConservativeStrategy.cpp" "CMakeFiles/StockTradingBot.dir/ConservativeStrategy.cpp.o" "gcc" "CMakeFiles/StockTradingBot.dir/ConservativeStrategy.cpp.o.d"
-  "/Users/anishdhandore/Downloads/Class Project 2/GUI.cpp" "CMakeFiles/StockTradingBot.dir/GUI.cpp.o" "gcc" "CMakeFiles/StockTradingBot.dir/GUI.cpp.o.d"
-  "/Users/anishdhandore/Downloads/Class Project 2/StockMarket.cpp" "CMakeFiles/StockTradingBot.dir/StockMarket.cpp.o" "gcc" "CMakeFiles/StockTradingBot.dir/StockMarket.cpp.o.d"
-  "/Users/anishdhandore/Downloads/Class Project 2/build/StockTradingBot_autogen/mocs_compilation.cpp" "CMakeFiles/StockTradingBot.dir/StockTradingBot_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/StockTradingBot.dir/StockTradingBot_autogen/mocs_compilation.cpp.o.d"
-  "/Users/anishdhandore/Downloads/Class Project 2/TradingBot.cpp" "CMakeFiles/StockTradingBot.dir/TradingBot.cpp.o" "gcc" "CMakeFiles/StockTradingBot.dir/TradingBot.cpp.o.d"
-  "/Users/anishdhandore/Downloads/Class Project 2/main.cpp" "CMakeFiles/StockTradingBot.dir/main.cpp.o" "gcc" "CMakeFiles/StockTradingBot.dir/main.cpp.o.d"
+  "/Users/anishdhandore/Documents/Projects/StockTradingBot/BankingSystem.cpp" "CMakeFiles/StockTradingBot.dir/BankingSystem.cpp.o" "gcc" "CMakeFiles/StockTradingBot.dir/BankingSystem.cpp.o.d"
+  "/Users/anishdhandore/Documents/Projects/StockTradingBot/GUI.cpp" "CMakeFiles/StockTradingBot.dir/GUI.cpp.o" "gcc" "CMakeFiles/StockTradingBot.dir/GUI.cpp.o.d"
+  "/Users/anishdhandore/Documents/Projects/StockTradingBot/StockMarket.cpp" "CMakeFiles/StockTradingBot.dir/StockMarket.cpp.o" "gcc" "CMakeFiles/StockTradingBot.dir/StockMarket.cpp.o.d"
+  "/Users/anishdhandore/Documents/Projects/StockTradingBot/build/StockTradingBot_autogen/mocs_compilation.cpp" "CMakeFiles/StockTradingBot.dir/StockTradingBot_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/StockTradingBot.dir/StockTradingBot_autogen/mocs_compilation.cpp.o.d"
+  "/Users/anishdhandore/Documents/Projects/StockTradingBot/TradingBot.cpp" "CMakeFiles/StockTradingBot.dir/TradingBot.cpp.o" "gcc" "CMakeFiles/StockTradingBot.dir/TradingBot.cpp.o.d"
+  "/Users/anishdhandore/Documents/Projects/StockTradingBot/main.cpp" "CMakeFiles/StockTradingBot.dir/main.cpp.o" "gcc" "CMakeFiles/StockTradingBot.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

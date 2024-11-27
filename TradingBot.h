@@ -6,29 +6,18 @@
 #include <unordered_map>
 #include <string>
 
-class InvestmentStrategy {
-public:
-    virtual std::string chooseStock(const std::unordered_map<std::string, double>& stocks) = 0;
-    virtual ~InvestmentStrategy() = default;
-};
-
-class ConservativeStrategy : public InvestmentStrategy {
-public:
-    ConservativeStrategy();  // Constructor declaration
-    std::string chooseStock(const std::unordered_map<std::string, double>& stocks) override;
-};
-
 class TradingBot : public IObserver {
 private:
     BankingSystem* bank;
-    InvestmentStrategy* strategy;
+    std::string selectedStock; // The stock selected by the user
     std::unordered_map<std::string, int> portfolio;
     double profit;
 
 public:
-    TradingBot(InvestmentStrategy* strategy, double initialFunds);
-    virtual ~TradingBot(); // Virtual destructor to ensure correct cleanup
+    TradingBot(double initialFunds);
+    virtual ~TradingBot();
 
+    void setSelectedStock(const std::string& stock); // Set the stock to trade
     void update(const std::string& stock, double price) override;
     void executeTrade(const StockMarket& market);
     void displayPortfolio() const;

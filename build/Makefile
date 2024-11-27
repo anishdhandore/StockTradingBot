@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/anishdhandore/Downloads/Class Project 2"
+CMAKE_SOURCE_DIR = /Users/anishdhandore/Documents/Projects/StockTradingBot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/anishdhandore/Downloads/Class Project 2/build"
+CMAKE_BINARY_DIR = /Users/anishdhandore/Documents/Projects/StockTradingBot/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/anishdhandore/Downloads/Class Project 2/build/CMakeFiles" "/Users/anishdhandore/Downloads/Class Project 2/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anishdhandore/Documents/Projects/StockTradingBot/build/CMakeFiles /Users/anishdhandore/Documents/Projects/StockTradingBot/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/anishdhandore/Downloads/Class Project 2/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anishdhandore/Documents/Projects/StockTradingBot/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -165,30 +165,6 @@ BankingSystem.s: BankingSystem.cpp.s
 BankingSystem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StockTradingBot.dir/build.make CMakeFiles/StockTradingBot.dir/BankingSystem.cpp.s
 .PHONY : BankingSystem.cpp.s
-
-ConservativeStrategy.o: ConservativeStrategy.cpp.o
-.PHONY : ConservativeStrategy.o
-
-# target to build an object file
-ConservativeStrategy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StockTradingBot.dir/build.make CMakeFiles/StockTradingBot.dir/ConservativeStrategy.cpp.o
-.PHONY : ConservativeStrategy.cpp.o
-
-ConservativeStrategy.i: ConservativeStrategy.cpp.i
-.PHONY : ConservativeStrategy.i
-
-# target to preprocess a source file
-ConservativeStrategy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StockTradingBot.dir/build.make CMakeFiles/StockTradingBot.dir/ConservativeStrategy.cpp.i
-.PHONY : ConservativeStrategy.cpp.i
-
-ConservativeStrategy.s: ConservativeStrategy.cpp.s
-.PHONY : ConservativeStrategy.s
-
-# target to generate assembly for a file
-ConservativeStrategy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StockTradingBot.dir/build.make CMakeFiles/StockTradingBot.dir/ConservativeStrategy.cpp.s
-.PHONY : ConservativeStrategy.cpp.s
 
 GUI.o: GUI.cpp.o
 .PHONY : GUI.o
@@ -323,9 +299,6 @@ help:
 	@echo "... BankingSystem.o"
 	@echo "... BankingSystem.i"
 	@echo "... BankingSystem.s"
-	@echo "... ConservativeStrategy.o"
-	@echo "... ConservativeStrategy.i"
-	@echo "... ConservativeStrategy.s"
 	@echo "... GUI.o"
 	@echo "... GUI.i"
 	@echo "... GUI.s"

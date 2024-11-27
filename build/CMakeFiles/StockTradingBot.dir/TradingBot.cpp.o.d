@@ -1,7 +1,7 @@
 CMakeFiles/StockTradingBot.dir/TradingBot.cpp.o: \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/TradingBot.cpp \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/TradingBot.h \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/StockMarket.h \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/TradingBot.cpp \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/TradingBot.h \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/StockMarket.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -738,7 +738,7 @@ CMakeFiles/StockTradingBot.dir/TradingBot.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/BankingSystem.h \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/BankingSystem.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__locale \

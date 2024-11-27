@@ -1,5 +1,5 @@
-/Users/anishdhandore/Downloads/Class\ Project\ 2/build/StockTradingBot_autogen/EWIEGA46WW/moc_GUI.cpp: /Users/anishdhandore/Downloads/Class\ Project\ 2/GUI.h \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/build/StockTradingBot_autogen/moc_predefs.h \
+/Users/anishdhandore/Documents/Projects/StockTradingBot/build/StockTradingBot_autogen/EWIEGA46WW/moc_GUI.cpp: /Users/anishdhandore/Documents/Projects/StockTradingBot/GUI.h \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/build/StockTradingBot_autogen/moc_predefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -687,9 +687,9 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/qos.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/time.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdarg.h \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/BankingSystem.h \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/StockMarket.h \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/TradingBot.h \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/BankingSystem.h \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/StockMarket.h \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/TradingBot.h \
   /opt/homebrew/Cellar/qt@5/5.15.16/lib/QtCore.framework/Versions/5/Headers/QTimer \
   /opt/homebrew/Cellar/qt@5/5.15.16/lib/QtCore.framework/Versions/5/Headers/qabstractitemmodel.h \
   /opt/homebrew/Cellar/qt@5/5.15.16/lib/QtCore.framework/Versions/5/Headers/qalgorithms.h \

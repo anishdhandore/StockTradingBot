@@ -1,6 +1,6 @@
 CMakeFiles/StockTradingBot.dir/StockMarket.cpp.o: \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/StockMarket.cpp \
-  /Users/anishdhandore/Downloads/Class\ Project\ 2/StockMarket.h \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/StockMarket.cpp \
+  /Users/anishdhandore/Documents/Projects/StockTradingBot/StockMarket.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/comp.h \
